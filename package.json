@@ -1,0 +1,25 @@
+{
+  "name": "file_metadata",
+  "version": "1.0.0",
+  "description": "a microservice to measure file size",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstoebel/file_metadata.git"
+  },
+  "author": "Jacob Stoebel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstoebel/file_metadata/issues"
+  },
+  "homepage": "https://github.com/jstoebel/file_metadata#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "multer": "^1.2.0"
+  }
+}
